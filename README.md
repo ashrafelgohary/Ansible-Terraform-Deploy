@@ -20,19 +20,19 @@ The **Ansible Terraform Deploy** project is designed to automate the deployment 
 - **GitHub** for version control
 
 
-##Terrraform Deploy
+## Terrraform Deploy
 
 ![Terraform apply](assests/terraformapply.png)
 
-##Ansible Deployment
+## Ansible Deployment
 
 ![Ansible Control](assests/ansibledeploy.png)
 
-##EC2 Instances
+## EC2 Instances
 
 ![hosts](assests/hosts.png)
 
-##Webservers
+## Webservers
 
 ![host1](assests/host2.png)
 
