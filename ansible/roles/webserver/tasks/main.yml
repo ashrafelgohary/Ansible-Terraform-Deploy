@@ -1,0 +1,27 @@
+---
+# # 1. Update system packages and install Nginx
+# - name: Update the system packages
+#   yum:
+#     name: '*'
+#     state: present
+
+# - name: Install Nginx
+#   yum:
+#     name: nginx
+#     state: present
+
+# # 2. Start and enable Nginx
+# - name: Start and enable Nginx
+#   systemd:
+#     name: nginx
+#     state: started
+#     enabled: yes
+
+# 3. Deploy custom index.html
+- name: Deploy custom index.html
+  template:
+    src: index.html.j2
+    dest: /usr/share/nginx/html/index.html
+    owner: nginx
+    group: nginx
+    mode: '0644'
