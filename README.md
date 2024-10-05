@@ -20,7 +20,7 @@ The **Ansible Terraform Deploy** project is designed to automate the deployment 
 - **GitHub** for version control
 
 
-## Terrraform Deploy
+## Terraform Deploy
 
 ![Terraform apply](assests/terraformapply.png)
 
